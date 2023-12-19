@@ -1,6 +1,9 @@
+import Footer from "./components/footer";
+import Gallery from "./components/gellery";
 import Header from "./components/header";
 import Main from "./components/main";
 import Services from "./components/service";
+import TestimonialContainer from "./testimonialContainer";
 
 export default function App() {
   return (
@@ -8,6 +11,9 @@ export default function App() {
     <Header/>
     <Main/>
     <Services/>
+    <TestimonialContainer/>
+    <Gallery/>
+    <Footer/>
     </main>
   )
 }
